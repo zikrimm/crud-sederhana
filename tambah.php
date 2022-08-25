@@ -36,19 +36,19 @@ if( isset($_POST["submit"]) ) {
 <form action="" method="post">
     <div class="mb-3">
         <label for="nik" class="form-label">NIK</label>
-        <input type="text" class="form-control" name="nik" id="nik" >
+        <input type="text" class="form-control" required name="nik" id="nik" >
     </div>
     <div class="mb-3">
         <label for="nama" class="form-label">Nama</label>
-        <input type="text" class="form-control" name="nama" id="nama" >
+        <input type="text" class="form-control" required name="nama" id="nama" >
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" name="email" id="email" >
+        <input type="email" class="form-control" required name="email" id="email" >
     </div>
     <div class="mb-3">
         <label for="status" class="form-label">Status</label>
-        <input type="text" class="form-control" name="status" id="status" >
+        <input type="text" class="form-control" required name="status" id="status" >
     </div>
 
     <button class="btn btn-primary" name="submit">Tambah Data</button>
